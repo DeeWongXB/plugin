@@ -1,0 +1,399 @@
+2020-07-08 14:23:58.074  INFO 59380 --- [main] com.pinyi.mian.Application               : Starting Application on nico with PID 59380 (started by flash in D:\Dee\spring-plugin-cli-master)
+2020-07-08 14:23:58.164  INFO 59380 --- [main] com.pinyi.mian.Application               : The following profiles are active: local
+2020-07-08 14:24:00.474 ERROR 59380 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:277) ~[na:1.8.0_161]
+	at com.pinyi.mian.PluginManager.addJarToClasspath(PluginManager.java:139) ~[classes/:na]
+	at com.pinyi.mian.PluginManager.lambda$register$0(PluginManager.java:50) ~[classes/:na]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[na:1.8.0_161]
+	at com.pinyi.mian.PluginManager.register(PluginManager.java:49) ~[classes/:na]
+	at com.pinyi.mian.events.listeners.DynamicLoadingPluginListener.contextLoaded(DynamicLoadingPluginListener.java:42) ~[classes/:na]
+	at org.springframework.boot.SpringApplicationRunListeners.contextLoaded(SpringApplicationRunListeners.java:66) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:393) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at com.pinyi.mian.Application.main(Application.java:12) [classes/:na]
+
+2020-07-08 14:24:22.580  INFO 53436 --- [main] com.pinyi.mian.Application               : Starting Application on nico with PID 53436 (started by flash in D:\Dee\spring-plugin-cli-master)
+2020-07-08 14:24:22.585  INFO 53436 --- [main] com.pinyi.mian.Application               : The following profiles are active: local
+2020-07-08 14:24:42.694 ERROR 53436 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.NullPointerException: null
+	at java.io.File.<init>(File.java:277) ~[na:1.8.0_161]
+	at com.pinyi.mian.PluginManager.addJarToClasspath(PluginManager.java:139) ~[classes/:na]
+	at com.pinyi.mian.PluginManager.lambda$register$0(PluginManager.java:50) ~[classes/:na]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[na:1.8.0_161]
+	at com.pinyi.mian.PluginManager.register(PluginManager.java:49) ~[classes/:na]
+	at com.pinyi.mian.events.listeners.DynamicLoadingPluginListener.contextLoaded(DynamicLoadingPluginListener.java:42) ~[classes/:na]
+	at org.springframework.boot.SpringApplicationRunListeners.contextLoaded(SpringApplicationRunListeners.java:66) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:393) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at com.pinyi.mian.Application.main(Application.java:12) [classes/:na]
+
+2020-07-08 14:24:51.557  INFO 62968 --- [main] com.pinyi.mian.Application               : Starting Application on nico with PID 62968 (started by flash in D:\Dee\spring-plugin-cli-master)
+2020-07-08 14:24:51.562  INFO 62968 --- [main] com.pinyi.mian.Application               : The following profiles are active: local
+2020-07-08 14:24:53.293 ERROR 62968 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.RuntimeException: 获取插件boot函数失败，插件名称：打印插件
+	at com.pinyi.mian.PluginManager.fetchBootClass(PluginManager.java:105) ~[classes/:na]
+	at com.pinyi.mian.PluginManager.lambda$register$0(PluginManager.java:55) ~[classes/:na]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[na:1.8.0_161]
+	at com.pinyi.mian.PluginManager.register(PluginManager.java:49) ~[classes/:na]
+	at com.pinyi.mian.events.listeners.DynamicLoadingPluginListener.contextLoaded(DynamicLoadingPluginListener.java:42) ~[classes/:na]
+	at org.springframework.boot.SpringApplicationRunListeners.contextLoaded(SpringApplicationRunListeners.java:66) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:393) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at com.pinyi.mian.Application.main(Application.java:12) [classes/:na]
+
+2020-07-08 14:25:08.290  INFO 62620 --- [main] com.pinyi.mian.Application               : Starting Application on nico with PID 62620 (started by flash in D:\Dee\spring-plugin-cli-master)
+2020-07-08 14:25:08.296  INFO 62620 --- [main] com.pinyi.mian.Application               : The following profiles are active: local
+2020-07-08 14:25:31.058 ERROR 62620 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.RuntimeException: 获取插件boot函数失败，插件名称：打印插件
+	at com.pinyi.mian.PluginManager.fetchBootClass(PluginManager.java:105) ~[classes/:na]
+	at com.pinyi.mian.PluginManager.lambda$register$0(PluginManager.java:55) ~[classes/:na]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[na:1.8.0_161]
+	at com.pinyi.mian.PluginManager.register(PluginManager.java:49) ~[classes/:na]
+	at com.pinyi.mian.events.listeners.DynamicLoadingPluginListener.contextLoaded(DynamicLoadingPluginListener.java:42) ~[classes/:na]
+	at org.springframework.boot.SpringApplicationRunListeners.contextLoaded(SpringApplicationRunListeners.java:66) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:393) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at com.pinyi.mian.Application.main(Application.java:12) [classes/:na]
+
+2020-07-08 14:29:53.742  INFO 66528 --- [main] com.pinyi.mian.Application               : Starting Application on nico with PID 66528 (started by flash in D:\Dee\spring-plugin-cli-master)
+2020-07-08 14:29:53.749  INFO 66528 --- [main] com.pinyi.mian.Application               : The following profiles are active: local
+2020-07-08 14:30:10.177  INFO 66528 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-07-08 14:30:10.201  INFO 66528 --- [main] com.pinyi.mian.Application               : Started Application in 17.187 seconds (JVM running for 19.561)
+2020-07-08 14:30:10.206  INFO 66528 --- [Thread-7] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-07-08 14:33:52.808  INFO 65712 --- [main] com.pinyi.mian.Application               : Starting Application on nico with PID 65712 (started by flash in D:\Dee\spring-plugin-cli-master)
+2020-07-08 14:33:52.823  INFO 65712 --- [main] com.pinyi.mian.Application               : The following profiles are active: local
+2020-07-08 14:33:55.072  INFO 65712 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-07-08 14:33:55.092  INFO 65712 --- [main] com.pinyi.mian.Application               : Started Application in 2.931 seconds (JVM running for 5.232)
+2020-07-08 14:33:55.097  INFO 65712 --- [Thread-6] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-07-08 14:45:04.296  INFO 67776 --- [main] com.pinyi.mian.Application               : Starting Application on nico with PID 67776 (started by flash in D:\Dee\spring-plugin-cli-master)
+2020-07-08 14:45:04.316  INFO 67776 --- [main] com.pinyi.mian.Application               : The following profiles are active: local
+2020-07-08 14:46:07.653  INFO 67776 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-07-08 14:46:26.108  INFO 67776 --- [main] com.pinyi.mian.Application               : Started Application in 80.241 seconds (JVM running for 84.993)
+2020-07-08 14:46:45.717  INFO 67776 --- [Thread-11] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-07-08 14:47:30.035  INFO 63436 --- [main] com.pinyi.mian.Application               : Starting Application on nico with PID 63436 (started by flash in D:\Dee\spring-plugin-cli-master)
+2020-07-08 14:47:30.041  INFO 63436 --- [main] com.pinyi.mian.Application               : The following profiles are active: local
+2020-07-08 14:47:36.271  INFO 63436 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-07-08 14:47:36.303  INFO 63436 --- [main] com.pinyi.mian.Application               : Started Application in 6.934 seconds (JVM running for 9.195)
+2020-07-08 14:47:36.309  INFO 63436 --- [Thread-7] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-07-08 14:49:37.214  INFO 69344 --- [main] com.pinyi.mian.Application               : Starting Application on nico with PID 69344 (started by flash in D:\Dee\spring-plugin-cli-master)
+2020-07-08 14:49:37.218  INFO 69344 --- [main] com.pinyi.mian.Application               : The following profiles are active: local
+2020-07-08 14:49:39.489  INFO 69344 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-07-08 14:49:39.520  INFO 69344 --- [main] com.pinyi.mian.Application               : Started Application in 2.97 seconds (JVM running for 5.369)
+2020-07-08 14:49:39.525  INFO 69344 --- [Thread-9] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-07-08 14:50:06.154  INFO 69412 --- [main] com.pinyi.mian.Application               : Starting Application on nico with PID 69412 (started by flash in D:\Dee\spring-plugin-cli-master)
+2020-07-08 14:50:06.173  INFO 69412 --- [main] com.pinyi.mian.Application               : The following profiles are active: local
+2020-07-08 14:50:08.513  INFO 69412 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-07-08 14:50:08.535  INFO 69412 --- [main] com.pinyi.mian.Application               : Started Application in 3.078 seconds (JVM running for 5.379)
+2020-07-08 14:50:08.540  INFO 69412 --- [Thread-6] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-07-08 14:51:49.430  INFO 63428 --- [main] com.pinyi.mian.Application               : Starting Application on nico with PID 63428 (started by flash in D:\Dee\spring-plugin-cli-master)
+2020-07-08 14:51:49.435  INFO 63428 --- [main] com.pinyi.mian.Application               : The following profiles are active: local
+2020-07-08 14:51:51.770  INFO 63428 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-07-08 14:51:51.798  INFO 63428 --- [main] com.pinyi.mian.Application               : Started Application in 3.02 seconds (JVM running for 5.326)
+2020-07-08 14:51:51.804  INFO 63428 --- [Thread-6] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-07-08 15:05:06.470  INFO 67668 --- [main] com.pinyi.mian.Application               : Starting Application on nico with PID 67668 (started by flash in D:\Dee\spring-plugin-cli-master)
+2020-07-08 15:05:06.475  INFO 67668 --- [main] com.pinyi.mian.Application               : The following profiles are active: local
+2020-07-08 15:05:09.585  INFO 67668 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-07-08 15:05:09.604  INFO 67668 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-08 15:05:09.604  INFO 67668 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-07-08 15:05:09.612  INFO 67668 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\IntelliJ IDEA 2019.2\jbr\\bin;D:\IntelliJ IDEA 2019.2\jbr\\bin\server;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Java\jdk1.8.0_161\bin;D:\Dee\Git\cmd;D:\maven\apache-maven-3.5.3\bin;D:\maven\apache-maven-3.5.3\bin;D:\Dee\mysql-8.0.20-winx64\bin;D:\Dee\node\;C:\ProgramData\chocolatey\bin;C:\Users\flash\AppData\Local\VanDyke Software\Clients\;D:\development\Ruby24-x64\bin;C:\Users\flash\AppData\Local\Microsoft\WindowsApps;;D:\IntelliJ IDEA 2019.2\bin;;D:\WebStorm 2019.3\bin;;D:\Bandizip\;C:\Users\flash\AppData\Roaming\npm;.]
+2020-07-08 15:05:09.744  INFO 67668 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-08 15:05:09.744  INFO 67668 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1541 ms
+2020-07-08 15:05:09.768  INFO 67668 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-07-08 15:05:09.773  INFO 67668 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-08 15:05:09.773  INFO 67668 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-08 15:05:09.774  INFO 67668 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2020-07-08 15:05:09.774  INFO 67668 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-08 15:05:10.064  INFO 67668 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-08 15:05:10.199  INFO 67668 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-07-08 15:05:10.309  INFO 67668 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-07-08 15:05:10.313  INFO 67668 --- [main] com.pinyi.mian.Application               : Started Application in 4.667 seconds (JVM running for 7.16)
+2020-07-08 15:10:40.983  INFO 67668 --- [Thread-10] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-07-08 15:10:40.985  INFO 67668 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-08 15:12:01.242  INFO 68816 --- [main] com.pinyi.mian.Application               : Starting Application on nico with PID 68816 (started by flash in D:\Dee\spring-plugin-cli-master)
+2020-07-08 15:12:01.247  INFO 68816 --- [main] com.pinyi.mian.Application               : The following profiles are active: local
+2020-07-08 15:12:03.948  INFO 68816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-07-08 15:12:03.966  INFO 68816 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-08 15:12:03.967  INFO 68816 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-07-08 15:12:03.974  INFO 68816 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\IntelliJ IDEA 2019.2\jbr\\bin;D:\IntelliJ IDEA 2019.2\jbr\\bin\server;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Java\jdk1.8.0_161\bin;D:\Dee\Git\cmd;D:\maven\apache-maven-3.5.3\bin;D:\maven\apache-maven-3.5.3\bin;D:\Dee\mysql-8.0.20-winx64\bin;D:\Dee\node\;C:\ProgramData\chocolatey\bin;C:\Users\flash\AppData\Local\VanDyke Software\Clients\;D:\development\Ruby24-x64\bin;C:\Users\flash\AppData\Local\Microsoft\WindowsApps;;D:\IntelliJ IDEA 2019.2\bin;;D:\WebStorm 2019.3\bin;;D:\Bandizip\;C:\Users\flash\AppData\Roaming\npm;.]
+2020-07-08 15:12:04.121  INFO 68816 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-08 15:12:04.121  INFO 68816 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1169 ms
+2020-07-08 15:12:04.148  INFO 68816 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-07-08 15:12:04.154  INFO 68816 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-08 15:12:04.155  INFO 68816 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-08 15:12:04.155  INFO 68816 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2020-07-08 15:12:04.155  INFO 68816 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-08 15:12:04.529  INFO 68816 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-08 15:12:04.689  INFO 68816 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-07-08 15:12:04.757  INFO 68816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-07-08 15:12:04.760  INFO 68816 --- [main] com.pinyi.mian.Application               : Started Application in 4.218 seconds (JVM running for 6.487)
+2020-07-08 15:26:09.447  INFO 68816 --- [Thread-9] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-07-08 15:26:09.449  INFO 68816 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-08 15:26:17.167  INFO 60632 --- [main] com.pinyi.mian.Application               : Starting Application on nico with PID 60632 (started by flash in D:\Dee\spring-plugin-cli-master)
+2020-07-08 15:26:17.171  INFO 60632 --- [main] com.pinyi.mian.Application               : The following profiles are active: local
+2020-07-08 15:26:19.883  INFO 60632 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-07-08 15:26:19.900  INFO 60632 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-08 15:26:19.901  INFO 60632 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-07-08 15:26:19.907  INFO 60632 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\IntelliJ IDEA 2019.2\jbr\\bin;D:\IntelliJ IDEA 2019.2\jbr\\bin\server;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Java\jdk1.8.0_161\bin;D:\Dee\Git\cmd;D:\maven\apache-maven-3.5.3\bin;D:\maven\apache-maven-3.5.3\bin;D:\Dee\mysql-8.0.20-winx64\bin;D:\Dee\node\;C:\ProgramData\chocolatey\bin;C:\Users\flash\AppData\Local\VanDyke Software\Clients\;D:\development\Ruby24-x64\bin;C:\Users\flash\AppData\Local\Microsoft\WindowsApps;;D:\IntelliJ IDEA 2019.2\bin;;D:\WebStorm 2019.3\bin;;D:\Bandizip\;C:\Users\flash\AppData\Roaming\npm;.]
+2020-07-08 15:26:20.037  INFO 60632 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-08 15:26:20.037  INFO 60632 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1086 ms
+2020-07-08 15:26:20.061  INFO 60632 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-07-08 15:26:20.066  INFO 60632 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-08 15:26:20.066  INFO 60632 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-08 15:26:20.066  INFO 60632 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2020-07-08 15:26:20.066  INFO 60632 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-08 15:26:20.342  INFO 60632 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-08 15:26:20.466  INFO 60632 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-07-08 15:26:20.524  INFO 60632 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-07-08 15:26:20.528  INFO 60632 --- [main] com.pinyi.mian.Application               : Started Application in 4.096 seconds (JVM running for 6.369)
+2020-07-08 15:28:35.390  INFO 60632 --- [Thread-9] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-07-08 15:28:35.391  INFO 60632 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-08 15:28:44.092  INFO 69144 --- [main] com.pinyi.mian.Application               : Starting Application on nico with PID 69144 (started by flash in D:\Dee\spring-plugin-cli-master)
+2020-07-08 15:28:44.098  INFO 69144 --- [main] com.pinyi.mian.Application               : The following profiles are active: local
+2020-07-08 15:28:46.713  INFO 69144 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-07-08 15:28:46.732  INFO 69144 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-08 15:28:46.733  INFO 69144 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-07-08 15:28:46.740  INFO 69144 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\IntelliJ IDEA 2019.2\jbr\\bin;D:\IntelliJ IDEA 2019.2\jbr\\bin\server;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Java\jdk1.8.0_161\bin;D:\Dee\Git\cmd;D:\maven\apache-maven-3.5.3\bin;D:\maven\apache-maven-3.5.3\bin;D:\Dee\mysql-8.0.20-winx64\bin;D:\Dee\node\;C:\ProgramData\chocolatey\bin;C:\Users\flash\AppData\Local\VanDyke Software\Clients\;D:\development\Ruby24-x64\bin;C:\Users\flash\AppData\Local\Microsoft\WindowsApps;;D:\IntelliJ IDEA 2019.2\bin;;D:\WebStorm 2019.3\bin;;D:\Bandizip\;C:\Users\flash\AppData\Roaming\npm;.]
+2020-07-08 15:28:46.884  INFO 69144 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-08 15:28:46.885  INFO 69144 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1078 ms
+2020-07-08 15:28:46.937  INFO 69144 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-07-08 15:28:46.942  INFO 69144 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-08 15:28:46.943  INFO 69144 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-08 15:28:46.943  INFO 69144 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2020-07-08 15:28:46.943  INFO 69144 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-08 15:28:47.252  INFO 69144 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-08 15:28:47.380  INFO 69144 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-07-08 15:28:47.441  INFO 69144 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-07-08 15:28:47.445  INFO 69144 --- [main] com.pinyi.mian.Application               : Started Application in 4.054 seconds (JVM running for 6.264)
+2020-07-08 15:29:56.272  INFO 69144 --- [Thread-9] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-07-08 15:29:56.274  INFO 69144 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-08 15:30:05.329  INFO 66908 --- [main] com.pinyi.mian.Application               : Starting Application on nico with PID 66908 (started by flash in D:\Dee\spring-plugin-cli-master)
+2020-07-08 15:30:05.334  INFO 66908 --- [main] com.pinyi.mian.Application               : The following profiles are active: local
+2020-07-08 15:30:08.059  INFO 66908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-07-08 15:30:08.078  INFO 66908 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-08 15:30:08.078  INFO 66908 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-07-08 15:30:08.085  INFO 66908 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\IntelliJ IDEA 2019.2\jbr\\bin;D:\IntelliJ IDEA 2019.2\jbr\\bin\server;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Java\jdk1.8.0_161\bin;D:\Dee\Git\cmd;D:\maven\apache-maven-3.5.3\bin;D:\maven\apache-maven-3.5.3\bin;D:\Dee\mysql-8.0.20-winx64\bin;D:\Dee\node\;C:\ProgramData\chocolatey\bin;C:\Users\flash\AppData\Local\VanDyke Software\Clients\;D:\development\Ruby24-x64\bin;C:\Users\flash\AppData\Local\Microsoft\WindowsApps;;D:\IntelliJ IDEA 2019.2\bin;;D:\WebStorm 2019.3\bin;;D:\Bandizip\;C:\Users\flash\AppData\Roaming\npm;.]
+2020-07-08 15:30:08.284  INFO 66908 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-08 15:30:08.285  INFO 66908 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1202 ms
+2020-07-08 15:30:08.316  INFO 66908 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-07-08 15:30:08.322  INFO 66908 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-08 15:30:08.323  INFO 66908 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-08 15:30:08.323  INFO 66908 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2020-07-08 15:30:08.323  INFO 66908 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-08 15:30:08.638  INFO 66908 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-08 15:30:08.769  INFO 66908 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-07-08 15:30:08.826  INFO 66908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-07-08 15:30:08.829  INFO 66908 --- [main] com.pinyi.mian.Application               : Started Application in 4.2 seconds (JVM running for 6.553)
+2020-07-08 16:02:14.356  INFO 66908 --- [Thread-9] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-07-08 16:02:14.358  INFO 66908 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-08 16:02:23.420  INFO 70200 --- [main] com.pinyi.mian.Application               : Starting Application on nico with PID 70200 (started by flash in D:\Dee\spring-plugin-cli-master)
+2020-07-08 16:02:23.425  INFO 70200 --- [main] com.pinyi.mian.Application               : The following profiles are active: local
+2020-07-08 16:02:37.347 ERROR 70200 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.RuntimeException: 获取插件boot函数失败，插件名称：打印插件
+	at com.pinyi.mian.PluginManager.fetchBootClass(PluginManager.java:105) ~[classes/:na]
+	at com.pinyi.mian.PluginManager.lambda$register$0(PluginManager.java:55) ~[classes/:na]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[na:1.8.0_161]
+	at com.pinyi.mian.PluginManager.register(PluginManager.java:49) ~[classes/:na]
+	at com.pinyi.mian.events.listeners.DynamicLoadingPluginListener.contextLoaded(DynamicLoadingPluginListener.java:42) ~[classes/:na]
+	at org.springframework.boot.SpringApplicationRunListeners.contextLoaded(SpringApplicationRunListeners.java:66) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:393) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at com.pinyi.mian.Application.main(Application.java:12) [classes/:na]
+
+2020-07-08 16:02:56.509  INFO 70588 --- [main] com.pinyi.mian.Application               : Starting Application on nico with PID 70588 (started by flash in D:\Dee\spring-plugin-cli-master)
+2020-07-08 16:02:56.514  INFO 70588 --- [main] com.pinyi.mian.Application               : The following profiles are active: local
+2020-07-08 16:05:21.593 ERROR 70588 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.RuntimeException: 获取插件boot函数失败，插件名称：打印插件
+	at com.pinyi.mian.PluginManager.fetchBootClass(PluginManager.java:105) ~[classes/:na]
+	at com.pinyi.mian.PluginManager.lambda$register$0(PluginManager.java:55) ~[classes/:na]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[na:1.8.0_161]
+	at com.pinyi.mian.PluginManager.register(PluginManager.java:49) ~[classes/:na]
+	at com.pinyi.mian.events.listeners.DynamicLoadingPluginListener.contextLoaded(DynamicLoadingPluginListener.java:42) ~[classes/:na]
+	at org.springframework.boot.SpringApplicationRunListeners.contextLoaded(SpringApplicationRunListeners.java:66) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:393) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at com.pinyi.mian.Application.main(Application.java:12) [classes/:na]
+
+2020-07-08 16:05:46.529  INFO 65712 --- [main] com.pinyi.mian.Application               : Starting Application on nico with PID 65712 (started by flash in D:\Dee\spring-plugin-cli-master)
+2020-07-08 16:05:46.533  INFO 65712 --- [main] com.pinyi.mian.Application               : The following profiles are active: local
+2020-07-08 16:05:48.426 ERROR 65712 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.RuntimeException: 获取插件boot函数失败，插件名称：打印插件
+	at com.pinyi.mian.PluginManager.fetchBootClass(PluginManager.java:106) ~[classes/:na]
+	at com.pinyi.mian.PluginManager.lambda$register$0(PluginManager.java:55) ~[classes/:na]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[na:1.8.0_161]
+	at com.pinyi.mian.PluginManager.register(PluginManager.java:49) ~[classes/:na]
+	at com.pinyi.mian.events.listeners.DynamicLoadingPluginListener.contextLoaded(DynamicLoadingPluginListener.java:42) ~[classes/:na]
+	at org.springframework.boot.SpringApplicationRunListeners.contextLoaded(SpringApplicationRunListeners.java:66) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:393) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at com.pinyi.mian.Application.main(Application.java:12) [classes/:na]
+
+2020-07-08 16:21:09.955  INFO 68332 --- [main] com.pinyi.mian.Application               : Starting Application on nico with PID 68332 (started by flash in D:\Dee\spring-plugin-cli-master)
+2020-07-08 16:21:09.961  INFO 68332 --- [main] com.pinyi.mian.Application               : The following profiles are active: local
+2020-07-08 16:21:11.700 ERROR 68332 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.ClassCastException: com.pinyi.mian.example.HelloWorld cannot be cast to com.pinyi.mian.PluginBootStrap
+	at com.pinyi.mian.PluginManager.fetchBootClass(PluginManager.java:102) ~[classes/:na]
+	at com.pinyi.mian.PluginManager.lambda$register$0(PluginManager.java:55) ~[classes/:na]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[na:1.8.0_161]
+	at com.pinyi.mian.PluginManager.register(PluginManager.java:49) ~[classes/:na]
+	at com.pinyi.mian.events.listeners.DynamicLoadingPluginListener.contextLoaded(DynamicLoadingPluginListener.java:42) ~[classes/:na]
+	at org.springframework.boot.SpringApplicationRunListeners.contextLoaded(SpringApplicationRunListeners.java:66) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:393) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at com.pinyi.mian.Application.main(Application.java:12) [classes/:na]
+
+2020-07-08 16:28:58.942  INFO 70048 --- [main] com.pinyi.mian.Application               : Starting Application on nico with PID 70048 (started by flash in D:\Dee\spring-plugin-cli-master)
+2020-07-08 16:28:58.948  INFO 70048 --- [main] com.pinyi.mian.Application               : The following profiles are active: local
+2020-07-08 16:30:10.809 ERROR 70048 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.RuntimeException: 获取插件boot函数失败，插件名称：打印插件
+	at com.pinyi.mian.PluginManager.fetchBootClass(PluginManager.java:106) ~[classes/:na]
+	at com.pinyi.mian.PluginManager.lambda$register$0(PluginManager.java:55) ~[classes/:na]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[na:1.8.0_161]
+	at com.pinyi.mian.PluginManager.register(PluginManager.java:49) ~[classes/:na]
+	at com.pinyi.mian.events.listeners.DynamicLoadingPluginListener.contextLoaded(DynamicLoadingPluginListener.java:42) ~[classes/:na]
+	at org.springframework.boot.SpringApplicationRunListeners.contextLoaded(SpringApplicationRunListeners.java:66) ~[spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:393) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.0.RELEASE.jar:2.1.0.RELEASE]
+	at com.pinyi.mian.Application.main(Application.java:12) [classes/:na]
+
+2020-07-08 16:42:11.614  INFO 63212 --- [main] com.pinyi.mian.Application               : Starting Application on nico with PID 63212 (started by flash in D:\Dee\spring-plugin-cli-master)
+2020-07-08 16:42:11.619  INFO 63212 --- [main] com.pinyi.mian.Application               : The following profiles are active: local
+2020-07-08 16:42:19.297  INFO 63212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-07-08 16:42:19.315  INFO 63212 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-08 16:42:19.315  INFO 63212 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-07-08 16:42:19.322  INFO 63212 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\IntelliJ IDEA 2019.2\jbr\\bin;D:\IntelliJ IDEA 2019.2\jbr\\bin\server;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Java\jdk1.8.0_161\bin;D:\Dee\Git\cmd;D:\maven\apache-maven-3.5.3\bin;D:\maven\apache-maven-3.5.3\bin;D:\Dee\mysql-8.0.20-winx64\bin;D:\Dee\node\;C:\ProgramData\chocolatey\bin;C:\Users\flash\AppData\Local\VanDyke Software\Clients\;D:\development\Ruby24-x64\bin;C:\Users\flash\AppData\Local\Microsoft\WindowsApps;;D:\IntelliJ IDEA 2019.2\bin;;D:\WebStorm 2019.3\bin;;D:\Bandizip\;C:\Users\flash\AppData\Roaming\npm;.]
+2020-07-08 16:42:19.460  INFO 63212 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-08 16:42:19.461  INFO 63212 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1268 ms
+2020-07-08 16:42:19.488  INFO 63212 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-07-08 16:42:19.493  INFO 63212 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-08 16:42:19.494  INFO 63212 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-08 16:42:19.494  INFO 63212 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2020-07-08 16:42:19.494  INFO 63212 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-08 16:42:19.767  INFO 63212 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-08 16:42:19.898  INFO 63212 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-07-08 16:42:19.957  INFO 63212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-07-08 16:42:19.960  INFO 63212 --- [main] com.pinyi.mian.Application               : Started Application in 9.13 seconds (JVM running for 11.58)
+2020-07-08 16:46:08.674  INFO 63212 --- [Thread-10] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-07-08 16:46:08.676  INFO 63212 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-08 16:47:43.584  INFO 63560 --- [main] com.pinyi.mian.Application               : Starting Application on nico with PID 63560 (started by flash in D:\Dee\spring-plugin-cli-master)
+2020-07-08 16:47:43.589  INFO 63560 --- [main] com.pinyi.mian.Application               : The following profiles are active: local
+2020-07-08 16:47:46.129  INFO 63560 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-07-08 16:47:46.146  INFO 63560 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-08 16:47:46.147  INFO 63560 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-07-08 16:47:46.153  INFO 63560 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\IntelliJ IDEA 2019.2\jbr\\bin;D:\IntelliJ IDEA 2019.2\jbr\\bin\server;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Java\jdk1.8.0_161\bin;D:\Dee\Git\cmd;D:\maven\apache-maven-3.5.3\bin;D:\maven\apache-maven-3.5.3\bin;D:\Dee\mysql-8.0.20-winx64\bin;D:\Dee\node\;C:\ProgramData\chocolatey\bin;C:\Users\flash\AppData\Local\VanDyke Software\Clients\;D:\development\Ruby24-x64\bin;C:\Users\flash\AppData\Local\Microsoft\WindowsApps;;D:\IntelliJ IDEA 2019.2\bin;;D:\WebStorm 2019.3\bin;;D:\Bandizip\;C:\Users\flash\AppData\Roaming\npm;.]
+2020-07-08 16:47:46.283  INFO 63560 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-08 16:47:46.284  INFO 63560 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1023 ms
+2020-07-08 16:47:46.307  INFO 63560 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-07-08 16:47:46.313  INFO 63560 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-08 16:47:46.313  INFO 63560 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-08 16:47:46.314  INFO 63560 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2020-07-08 16:47:46.314  INFO 63560 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-08 16:47:46.598  INFO 63560 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-08 16:47:46.748  INFO 63560 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-07-08 16:47:46.815  INFO 63560 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-07-08 16:47:46.819  INFO 63560 --- [main] com.pinyi.mian.Application               : Started Application in 3.954 seconds (JVM running for 6.22)
+2020-07-08 16:49:18.387  INFO 63560 --- [Thread-9] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-07-08 16:49:18.389  INFO 63560 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-08 16:49:24.789  INFO 66456 --- [main] com.pinyi.mian.Application               : Starting Application on nico with PID 66456 (started by flash in D:\Dee\spring-plugin-cli-master)
+2020-07-08 16:49:24.795  INFO 66456 --- [main] com.pinyi.mian.Application               : The following profiles are active: local
+2020-07-08 16:49:27.300  INFO 66456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-07-08 16:49:27.316  INFO 66456 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-08 16:49:27.317  INFO 66456 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-07-08 16:49:27.324  INFO 66456 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\IntelliJ IDEA 2019.2\jbr\\bin;D:\IntelliJ IDEA 2019.2\jbr\\bin\server;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Java\jdk1.8.0_161\bin;D:\Dee\Git\cmd;D:\maven\apache-maven-3.5.3\bin;D:\maven\apache-maven-3.5.3\bin;D:\Dee\mysql-8.0.20-winx64\bin;D:\Dee\node\;C:\ProgramData\chocolatey\bin;C:\Users\flash\AppData\Local\VanDyke Software\Clients\;D:\development\Ruby24-x64\bin;C:\Users\flash\AppData\Local\Microsoft\WindowsApps;;D:\IntelliJ IDEA 2019.2\bin;;D:\WebStorm 2019.3\bin;;D:\Bandizip\;C:\Users\flash\AppData\Roaming\npm;.]
+2020-07-08 16:49:27.453  INFO 66456 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-08 16:49:27.453  INFO 66456 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1050 ms
+2020-07-08 16:49:27.476  INFO 66456 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-07-08 16:49:27.481  INFO 66456 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-08 16:49:27.481  INFO 66456 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-08 16:49:27.481  INFO 66456 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2020-07-08 16:49:27.481  INFO 66456 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-08 16:49:27.753  INFO 66456 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-08 16:49:27.895  INFO 66456 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-07-08 16:49:27.954  INFO 66456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-07-08 16:49:27.958  INFO 66456 --- [main] com.pinyi.mian.Application               : Started Application in 3.895 seconds (JVM running for 6.133)
+2020-07-08 16:51:22.624  INFO 66456 --- [Thread-9] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-07-08 16:51:22.626  INFO 66456 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-08 16:51:31.360  INFO 62516 --- [main] com.pinyi.mian.Application               : Starting Application on nico with PID 62516 (started by flash in D:\Dee\spring-plugin-cli-master)
+2020-07-08 16:51:31.365  INFO 62516 --- [main] com.pinyi.mian.Application               : The following profiles are active: local
+2020-07-08 16:51:33.984  INFO 62516 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-07-08 16:51:34.000  INFO 62516 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-08 16:51:34.001  INFO 62516 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-07-08 16:51:34.007  INFO 62516 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\IntelliJ IDEA 2019.2\jbr\\bin;D:\IntelliJ IDEA 2019.2\jbr\\bin\server;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Java\jdk1.8.0_161\bin;D:\Dee\Git\cmd;D:\maven\apache-maven-3.5.3\bin;D:\maven\apache-maven-3.5.3\bin;D:\Dee\mysql-8.0.20-winx64\bin;D:\Dee\node\;C:\ProgramData\chocolatey\bin;C:\Users\flash\AppData\Local\VanDyke Software\Clients\;D:\development\Ruby24-x64\bin;C:\Users\flash\AppData\Local\Microsoft\WindowsApps;;D:\IntelliJ IDEA 2019.2\bin;;D:\WebStorm 2019.3\bin;;D:\Bandizip\;C:\Users\flash\AppData\Roaming\npm;.]
+2020-07-08 16:51:34.146  INFO 62516 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-08 16:51:34.147  INFO 62516 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1044 ms
+2020-07-08 16:51:34.170  INFO 62516 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-07-08 16:51:34.174  INFO 62516 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-08 16:51:34.175  INFO 62516 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-08 16:51:34.175  INFO 62516 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2020-07-08 16:51:34.175  INFO 62516 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-08 16:51:34.468  INFO 62516 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-08 16:51:34.589  INFO 62516 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-07-08 16:51:34.646  INFO 62516 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-07-08 16:51:34.649  INFO 62516 --- [main] com.pinyi.mian.Application               : Started Application in 4.0 seconds (JVM running for 6.385)
+2020-07-08 16:52:11.706  INFO 62516 --- [Thread-9] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-07-08 16:52:11.708  INFO 62516 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-08 16:52:18.265  INFO 67736 --- [main] com.pinyi.mian.Application               : Starting Application on nico with PID 67736 (started by flash in D:\Dee\spring-plugin-cli-master)
+2020-07-08 16:52:18.270  INFO 67736 --- [main] com.pinyi.mian.Application               : The following profiles are active: local
+2020-07-08 16:53:46.571  INFO 67736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-07-08 16:53:46.589  INFO 67736 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-08 16:53:46.590  INFO 67736 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-07-08 16:53:46.598  INFO 67736 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\IntelliJ IDEA 2019.2\jbr\\bin;D:\IntelliJ IDEA 2019.2\jbr\\bin\server;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Java\jdk1.8.0_161\bin;D:\Dee\Git\cmd;D:\maven\apache-maven-3.5.3\bin;D:\maven\apache-maven-3.5.3\bin;D:\Dee\mysql-8.0.20-winx64\bin;D:\Dee\node\;C:\ProgramData\chocolatey\bin;C:\Users\flash\AppData\Local\VanDyke Software\Clients\;D:\development\Ruby24-x64\bin;C:\Users\flash\AppData\Local\Microsoft\WindowsApps;;D:\IntelliJ IDEA 2019.2\bin;;D:\WebStorm 2019.3\bin;;D:\Bandizip\;C:\Users\flash\AppData\Roaming\npm;.]
+2020-07-08 16:53:46.739  INFO 67736 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-08 16:53:46.739  INFO 67736 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1124 ms
+2020-07-08 16:53:46.765  INFO 67736 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-07-08 16:53:46.770  INFO 67736 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-08 16:53:46.771  INFO 67736 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-08 16:53:46.771  INFO 67736 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2020-07-08 16:53:46.771  INFO 67736 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-08 16:53:47.050  INFO 67736 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-08 16:53:47.192  INFO 67736 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-07-08 16:53:47.255  INFO 67736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-07-08 16:53:47.258  INFO 67736 --- [main] com.pinyi.mian.Application               : Started Application in 89.719 seconds (JVM running for 91.995)
+2020-07-08 16:54:20.717  INFO 67736 --- [Thread-13] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-07-08 16:54:20.719  INFO 67736 --- [Thread-13] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-08 16:54:53.265  INFO 61476 --- [main] com.pinyi.mian.Application               : Starting Application on nico with PID 61476 (started by flash in D:\Dee\spring-plugin-cli-master)
+2020-07-08 16:54:53.271  INFO 61476 --- [main] com.pinyi.mian.Application               : The following profiles are active: local
+2020-07-08 16:54:55.885  INFO 61476 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-07-08 16:54:55.902  INFO 61476 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-08 16:54:55.903  INFO 61476 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2020-07-08 16:54:55.909  INFO 61476 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\IntelliJ IDEA 2019.2\jbr\\bin;D:\IntelliJ IDEA 2019.2\jbr\\bin\server;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Java\jdk1.8.0_161\bin;D:\Dee\Git\cmd;D:\maven\apache-maven-3.5.3\bin;D:\maven\apache-maven-3.5.3\bin;D:\Dee\mysql-8.0.20-winx64\bin;D:\Dee\node\;C:\ProgramData\chocolatey\bin;C:\Users\flash\AppData\Local\VanDyke Software\Clients\;D:\development\Ruby24-x64\bin;C:\Users\flash\AppData\Local\Microsoft\WindowsApps;;D:\IntelliJ IDEA 2019.2\bin;;D:\WebStorm 2019.3\bin;;D:\Bandizip\;C:\Users\flash\AppData\Roaming\npm;.]
+2020-07-08 16:54:56.038  INFO 61476 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-08 16:54:56.038  INFO 61476 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1040 ms
+2020-07-08 16:54:56.062  INFO 61476 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2020-07-08 16:54:56.066  INFO 61476 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2020-07-08 16:54:56.067  INFO 61476 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2020-07-08 16:54:56.067  INFO 61476 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2020-07-08 16:54:56.067  INFO 61476 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2020-07-08 16:54:56.352  INFO 61476 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-08 16:54:56.485  INFO 61476 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-07-08 16:54:56.545  INFO 61476 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-07-08 16:54:56.548  INFO 61476 --- [main] com.pinyi.mian.Application               : Started Application in 4.018 seconds (JVM running for 6.477)
+2020-07-08 16:55:05.978  INFO 61476 --- [Thread-9] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-07-08 16:55:05.980  INFO 61476 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

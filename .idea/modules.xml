@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-plugin-cli-master/plugin/devastate.iml" filepath="$PROJECT_DIR$/spring-plugin-cli-master/plugin/devastate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-plugin-cli-master/main program/hope.iml" filepath="$PROJECT_DIR$/spring-plugin-cli-master/main program/hope.iml" />
+    </modules>
+  </component>
+</project>
